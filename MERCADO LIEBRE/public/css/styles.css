@@ -1,0 +1,102 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    font-family: roboto;
+    background-color: #ebebeb;
+}
+/*header*/
+header{
+    background-color:#EAC926;
+}
+.logo{
+width: 50%;
+margin: 5%;
+}
+.buscar{
+    margin-left:3%;
+}
+p {
+    font-size: 12px;
+}
+.comprar{
+    text-align: center;
+}
+.lista{
+    text-align: left;
+    list-style-type: none;
+    padding-left:0%;
+}
+.burger-menu {
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #1259c3;
+    margin: auto;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+/*main*/
+main{
+    margin:auto;
+    width: 90vw;
+    background-color: #ebebeb
+
+}
+main article {
+    margin-bottom: 10px;
+}
+.titulares {
+    font-size: 24px;
+    
+}
+section article div i {
+    color: #39b54a;
+    border-radius: 100%;
+    border: solid 1px #39b54a;
+    background-color: white;
+    padding:10px;
+}
+section article div{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    
+}
+section article{
+    background-color: white;
+}
+
+span.precio {
+    font-size: 18px;
+}
+span.descuento {
+    font-size: 16px;
+    color: #39b54a;
+}
+.descripcion {
+    font-size: 16px;
+    display: none;
+}
+/*footer*/
+footer{
+    text-align: center;
+}
+footer i{
+    color:#1259c3;
+    margin-bottom: 10px;
+}
+
+.imagenes{
+    display:block;
+    margin:auto;
+}
+@media (min-width:361px){
+.descripcion{
+    display: block;
+}
+}
+.formulario{
+    margin:auto
+}
